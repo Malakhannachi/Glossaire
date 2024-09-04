@@ -138,32 +138,83 @@ Exemple : <?php
   -Back-end : La partie cachée qui gère les données et la logique de l'application.
 
 21.	Définir le contrôle de version ? Qu’est-ce que Git ?
-22.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+  - Contrôle de version : Système pour suivre et gérer les modifications apportées aux fichiers d'un projet.
+  - Git : Un outil populaire pour le contrôle de version, permettant de gérer les versions du code et de collaborer avec d'autres.
 
+22.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+    - Un CMS (Content Management System) est un logiciel qui permet de créer, gérer et publier du contenu sur un site web sans avoir besoin de compétences techniques    
+     approfondies.
+      Exemples :
+      WordPress : CMS populaire pour créer des blogs et des sites web avec une interface utilisateur simple.
+      Joomla : CMS flexible utilisé pour des sites web variés, des blogs aux sites d'entreprise.
 ## Front-end
 18.	Définir HTML
+  -HTML (HyperText Markup Language) est un Langage qui organise et affiche le contenu d'une page web.
+
 19.	Définir CSS
+  - CSS (Cascading Style Sheets) est un langage utilisé pour styliser et mettre en forme les pages web.
+
 20.	Définir Javascript
+   - JavaScript est un Langage qui rend les pages web interactives et dynamiques.
+
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+   - JSON est un Format pour échanger des données, souvent utilisé dans les échanges entre serveurs et applications web.
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+  - Oui, il est possible d'interpréter du JavaScript côté serveur. Cela se fait principalement avec Node.js, qui est un environnement d'exécution pour JavaScript permettant    d'exécuter des scripts JavaScript sur le serveur, en dehors du navigateur.
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
+  - Sélecteur CSS est identifie les éléments HTML auxquels appliquer des styles.
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+  - La balise HTML qui permet de créer un lien hypertexte est <a>
+
 25.	Qu’est-ce qu’une requête AJAX ?
+  -Requête AJAX est une Technique pour envoyer et recevoir des données sans recharger la page.
+
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+  - Sélecteur de classe : Utilise un point '.' suivi du nom de la classe.
+  - Sélecteur d'identifiant : Utilise un dièse '#' suivi du nom de l'identifiant.
+
 27.	Définir le responsive design
+  -Responsive design est une conception de sites web qui s'adaptent automatiquement aux différentes tailles d'écran et appareils.
+
 28.	Qu’est-ce que le templating ?
+  - Templating est un Technique qui sépare le design d'une page web de son contenu pour faciliter la création de pages dynamiques et cohérentes
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+ - Une fonction anonyme en JavaScript est une fonction qui n'a pas de nom, Elle est souvent utilisée pour des tâches temporaires
+
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+ - La méthode JavaScript utilisée pour ajouter un élément à la fin d'un tableau est push().
+
 31.	Qu’est-ce qu’un « media query » ?
+  - Media query est un Technique CSS pour appliquer des styles différents selon les caractéristiques de l'appareil, comme la taille de l'écran.
+
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
+   - Pseudo-élément : Sélectionne et stylise des parties spécifiques d'un élément, comme le premier caractère ou une ligne avant ou après le contenu.
+
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+  - Bootstrap est un Framework CSS pour concevoir rapidement des sites web avec des styles et des composants préconçus
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+  -  Lorsqu'un formulaire HTML est créé, les deux méthodes qui peuvent lui être associées sont GET : Les données sont envoyées dans l'URL, visible et limitées en taille et
+  POST : Les données sont envoyées dans le corps de la requête, pas visible et sans limite stricte de taille.
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
+  -UX Design : Se concentre sur l'expérience et la facilité d'utilisation du produit.
+  - UI Design : Se concentre sur l'apparence visuelle et les éléments interactifs de l'interface.
+
 36.	Qu’est-ce qu’un wireframe ? 
+    - Wireframe est un Schéma de la structure d'une page, montrant la disposition des éléments sans design détaillé.
+
 37.	Qu’est-ce qu’un prototype ? 
+   - Prototype : Version préliminaire d'un produit pour tester et valider des concepts avant la version finale
+
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+- Hiérarchie visuelle : Organisation des éléments d'une interface pour guider l'utilisateur et rendre le contenu facile à comprendre et à naviguer
+
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
