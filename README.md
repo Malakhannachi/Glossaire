@@ -225,15 +225,66 @@ Exemple : <?php
   - Affordance : Caractéristique d'un élément d'interface qui indique comment il doit être utilisé, par son design et ses caractéristiques visuelles.
 
 42.	Qu’est-ce qu’un « mobile first design » ?
+  - Mobile first design : Conception d'abord pour les appareils mobiles, puis adaptation pour les écrans plus grands.
+
 IV. Programmation orientée objet (POO)
 43.	Donner une définition de la programmation orientée objet 
+  - La programmation orientée objet est une approche où les données et les comportements sont regroupés en objets. Ces objets sont des instances de classes, qui définissent     leurs caractéristiques et leurs actions. Cela permet de structurer le code de manière plus modulaire et réutilisable.
+
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+  - une classe est une structure qui définit des attributs et des méthodes pour créer des objets. On la déclare avec le mot-clé class
+    Exemple : class NomDeLaClasse {
+                public $attribut1;
+                public $attribut2;
+            
+                public function __construct($attribut1, $attribut2) {
+                    $this->attribut1 = $attribut1;
+                    $this->attribut2 = $attribut2;
+                }
+            
+                public function methode() {
+                    // Code de la méthode
+                }
+            }
+
 45.	Qu’est-ce qu’un objet ?
+  - Un objet est une instance d'une classe, contenant des données et des méthodes associées
+
 46.	Définir la notion de propriété / attribut / méthode
+  - Propriété / Attribut : C’est une variable définie dans une classe qui stocke des données ou des caractéristiques d'un objet.
+  - Méthode : C’est une fonction définie dans une classe qui décrit les comportements ou les actions qu'un objet peut réaliser.
+
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+  - La visibilité détermine qui peut accéder à une propriété ou méthode :
+    Public : Accessible de partout.
+   Protected : Accessible seulement depuis la classe et ses sous-classes.
+   Private : Accessible uniquement depuis la classe elle-même.
+
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+  - Pour créer un nouvel objet à partir d'une classe, on utilise un constructeur, une méthode spéciale définie pour initialiser l'objet.
+
 49.	Qu’est-ce que l’encapsulation ?
+  - L'encapsulation est la pratique de regrouper les données et les méthodes dans une classe et de contrôler l'accès à ces données en utilisant des niveaux de visibilité          (public, protected, private). Cela protège les données et simplifie l'interaction avec les objets
+
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+  - Étendre une classe signifie créer une nouvelle classe qui hérite des attributs et des méthodes d'une classe existante. Le concept clé est l'héritage, qui permet à une 
+   sous-classe (ou classe dérivée) de réutiliser et d'étendre les fonctionnalités d'une superclasse
+  Exemple : class Animal {
+             public function parler() {
+                 return "L'animal fait un bruit.";
+             }
+         }
+         
+         class Chien extends Animal {
+             public function aboyer() {
+                 return "Le chien aboie.";
+             }
+         }
+         
+         $monChien = new Chien();
+         echo $monChien->parler(); // Héritée de la classe Animal
+         echo $monChien->aboyer(); // Méthode spécifique à Chien
+
 51.	Définir l’opérateur de résolution de portée
 52.	Définir une méthode / propriété statique
 53.	Définir le polymorphisme en POO
