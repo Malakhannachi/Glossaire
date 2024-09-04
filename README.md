@@ -14,7 +14,7 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce conte
-   - laragon et VScode
+   - laragon et WAMP ( Windows ).
      
 3.	Qu’est-ce qu’un algorithme ?
       - Un algorithme est une série d'étapes claires et précises que l'on suit pour résoudre un problème ou accomplir une tâche
