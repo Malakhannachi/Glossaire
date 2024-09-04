@@ -286,23 +286,93 @@ IV. Programmation orientée objet (POO)
          echo $monChien->aboyer(); // Méthode spécifique à Chien
 
 51.	Définir l’opérateur de résolution de portée
-52.	Définir une méthode / propriété statique
-53.	Définir le polymorphisme en POO
-54.	Définir une méthode / classe abstraite ?
-55.	Définir le chaînage de méthodes
-56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-59.	Qu’est-ce que la sérialisation en PHP ? 
+  - L'opérateur de résolution de portée :: permet d'accéder aux membres statiques d'une classe ou d'un espace de noms. Par exemple, Classe::membre en PHP
 
+52.	Définir une méthode / propriété statique
+  - Une méthode ou propriété statique appartient à la classe elle-même plutôt qu’à ses instances, et est accessible via le nom de la classe
+
+53.	Définir le polymorphisme en POO
+  - Le polymorphisme permet à des objets de types différents d’être traités de manière uniforme en utilisant une interface commune, souvent grâce à des méthodes avec le même nom mais des implémentations différentes
+
+54.	Définir une méthode / classe abstraite ?
+  -Méthode abstraite : Déclaration sans implémentation dans une classe abstraite, à définir dans les sous-classes.
+  - Classe abstraite : Classe qui ne peut pas être instanciée directement, servant de modèle pour d’autres classes.
+
+55.	Définir le chaînage de méthodes
+  - Le chaînage de méthodes est une technique où les méthodes d'un objet renvoient l'objet lui-même (ou un autre objet) pour permettre des appels de méthodes successifs sur 
+  la même ligne de code. Cela permet d'exécuter plusieurs opérations en une seule expression fluide
+
+56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+  - 
+La méthode __toString() permet de définir la représentation en chaîne d'un objet lorsqu'il est utilisé comme une chaîne.
+
+Autres méthodes magiques en PHP :
+
+__construct(): Constructeur
+__destruct(): Destructeur
+__get(): Accès aux propriétés
+__set(): Définition des propriétés
+__call(): Appel des méthodes non définies
+__callStatic(): Appel des méthodes statiques non définies
+__isset(): Vérification des propriétés
+__unset(): Suppression des propriétés
+__clone(): Clonage
+__invoke(): Appel d'un objet comme fonction
+
+57.	Qu’est-ce qu’un « autoload » ?
+  - L'autoload est une fonctionnalité qui charge automatiquement les classes nécessaires sans avoir à inclure manuellement leurs fichiers. En PHP, cela se fait généralement     avec spl_autoload_register().
+
+58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+  - En français, les "getters" sont appelés "accesseurs" et les "setters" sont appelés "mutateurs".
+   Accesseurs : Méthodes utilisées pour obtenir la valeur d'un attribut privé ou protégé d'une classe.
+   Mutateurs : Méthodes utilisées pour définir ou modifier la valeur d'un attribut privé ou protégé d'une classe
+
+59.	Qu’est-ce que la sérialisation en PHP ? 
+  - La sérialisation en PHP convertit un objet ou une structure complexe en une chaîne de caractères pour le stocker ou le transmettre, puis le reconvertit en utilisant 
+  serialize() et unserialize().
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
+     - L'architecture client/serveur est un modèle où le client (l'utilisateur ou l'application) envoie des requêtes au serveur (qui fournit des ressources ou des services) 
+   via un réseau. Le serveur traite ces requêtes et renvoie les réponses au client.
+   
+   Pour interroger le serveur, on utilise principalement des requêtes HTTP (Hypertext Transfer Protocol).
+   
+   HTTP : Protocole pour les requêtes et les réponses entre le client et le serveur.
+   Acronyme :
+   
+   HTTP (Hypertext Transfer Protocol) : Protocole standard utilisé pour la communication web.
+   Ajout d'un « S » :
+   
+   HTTPS (Hypertext Transfer Protocol Secure) : Version sécurisée de HTTP, utilisant le chiffrement SSL/TLS pour protéger les données échangées entre le client et le serveur.
+
 61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
+  - Un design pattern est une solution réutilisable à un problème de conception récurrent en développement logiciel.
+   Exemples :
+   Singleton : Assure une seule instance d'une classe.
+   Observer : Notifie automatiquement les objets dépendants d'un changement d'état.
+   Factory Method : Crée des objets sans spécifier la classe concrète.
+
 62.	Qu’est-ce que l’architecture MVC ?
+  - L'architecture MVC (Model-View-Controller) est un modèle de conception qui sépare une application en trois composants Model, View, Controller.
+
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+  - Model (Modèle) : Gère les données et la logique métier de l'application. Il récupère, stocke et manipule les données, et peut inclure des règles de validation.
+
+  - View (Vue) : Présente les données au utilisateur. Elle est responsable de l'affichage des informations et de la génération de l'interface utilisateur.
+
+  - Controller (Contrôleur) : Gère les interactions de l'utilisateur. Il reçoit les entrées de l'utilisateur, traite les demandes (en interagissant avec le modèle) et met à 
+   jour la vue en conséquence.
+
 64.	Quels sont les avantages de l’architecture MVC ?
+  - L'architecture MVC sépare les données (Model), l'affichage (View) et la logique de contrôle (Controller), offrant une meilleure modularité, testabilité et maintenance 
+   du code.
+
 65.	Existe-t-il des variantes à l’architecture MVC ?
+  - Oui, plusieurs variantes et extensions de l'architecture MVC existent, chacune adaptée à des besoins spécifiques
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
+  - API : Interface qui permet à des applications de communiquer entre elles en définissant des règles et des méthodes d'échange de données.
+  - REST : Architecture pour les services web utilisant HTTP, avec des principes comme l'absence d'état (stateless), une interface uniforme, et l'utilisation de méthodes       HTTP (GET, POST, PUT, DELETE) pour interagir avec des ressources identifiées par des URL.
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
