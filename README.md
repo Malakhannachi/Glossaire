@@ -213,11 +213,17 @@ Exemple : <?php
    - Prototype : Version préliminaire d'un produit pour tester et valider des concepts avant la version finale
 
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
-- Hiérarchie visuelle : Organisation des éléments d'une interface pour guider l'utilisateur et rendre le contenu facile à comprendre et à naviguer
+  - Hiérarchie visuelle : Organisation des éléments d'une interface pour guider l'utilisateur et rendre le contenu facile à comprendre et à naviguer
 
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
+  - Accessibilité en UX Design se réfère à la conception d'interfaces pour qu'elles soient utilisables par tout le monde, y compris les personnes avec des handicaps.
+
 40.	Qu’est-ce qu’une grille de mise en page ?
+  - Grille de mise en page est un Système de lignes pour organiser et aligner le contenu sur une page de manière structurée.
+
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
+  - Affordance : Caractéristique d'un élément d'interface qui indique comment il doit être utilisé, par son design et ses caractéristiques visuelles.
+
 42.	Qu’est-ce qu’un « mobile first design » ?
 IV. Programmation orientée objet (POO)
 43.	Donner une définition de la programmation orientée objet 
