@@ -13,23 +13,132 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte vvgjolm:kjhgfds
-2.	Qu’est-ce qu’un algorithme ?  
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
-4.	Qu’est-ce que la portée d’une variable ?
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
-7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
-8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP
-14.	Comment effectuer une redirection en PHP ?
-15.	Définir la partie « front-end » et « back-end » d’une application
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce conte
+   - laragon et VScode
+     
+3.	Qu’est-ce qu’un algorithme ?
+      - Un algorithme est une série d'étapes claires et précises que l'on suit pour résoudre un problème ou accomplir une tâche
+        
+4.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+   - Une variable est un espace de stockage temporaire où l'on peut garder des informations, En PHP, les variables sont par le symbole $.
+
+5.	Qu’est-ce que la portée d’une variable ?
+  - La portée d'une variable est la zone de code où elle a été déclarée.
+
+6.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+  - Constante : Sa valeur est fixe et ne peut pas être modifiée après sa définition.
+  -  une constante reste la même, alors qu'une variable peut changer tout au long du programme.
+
+7.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+ - Une superglobale est une variable spéciale en PHP qui est toujours disponible partout dans le script, sans avoir besoin de la déclarer ou de la passer en argument. Il existe 9 superglobales en PHP : $_Get, $_Post, $_REQUEST, $_SESSION, $_COOKIE, $_FILES, $_ENV, $_SERVER, $_GLOBALS
+
+8.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+  -En PHP, les variables peuvent être associées à différents types de données. Voici les principaux types primitifs avec des exemples simples :
+    Entier (Integer) :
+    Description : Un nombre entier, sans décimales.
+    Exemple : $age = 25;
+    Flottant (Float) :
+    Description : Un nombre avec des décimales.
+    Exemple : $prix = 19.99;
+    Chaîne de caractères (String) :
+    Description : Une séquence de caractères, comme du texte.
+    Exemple : $nom = "Marie";
+    Booléen (Boolean) :
+    Description : Une valeur qui peut être soit true (vrai) soit false (faux).
+    Exemple : $estConnecte = true;
+    Tableau (Array) :
+    Description : Une liste de valeurs, qui peuvent être de n'importe quel type.
+    Exemple : $fruits = array("pomme", "banane", "orange");
+    Objet (Object) :
+    Description : Une instance d'une classe, qui peut contenir des données et des méthodes.
+    Exemple : $utilisateur = new Utilisateur();
+  	NULL :
+    Description : Indique l'absence de valeur ou une variable sans valeur assignée.
+    Exemple : $variable = null;
+
+10.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+    -Oui, en PHP, il existe deux types principaux de tableaux :Tableau indexé est Un tableau où les éléments sont accessibles via des indices numériques
+   	et Tableau associatif est Un tableau où les éléments sont accessibles via des clés nommées (strings) plutôt que des indices numériques .
+
+12.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+    -En algorithmie, les structures de contrôle sont des mécanismes qui permettent de gérer le flux d'exécution d'un programme. Voici les principales structures de contrôle     avec des exemples simples :
+   	If-Else : Pour exécuter du code conditionnellement.
+   	Exemple : if ($age > 18) {
+            echo "Adulte";
+        } else {
+            echo "Mineur";
+        }
+
+   	For : Pour répéter du code un nombre fixe de fois.
+   	Exemple : for ($i = 0; $i < 5; $i++) {
+            echo $i; // Affiche 0, 1, 2, 3, 4
+              }
+    While : Pour répéter du code tant qu'une condition est vraie.
+   	Exemple : $i = 0;
+              while ($i < 5) {
+                  echo $i; // Affiche 0, 1, 2, 3, 4
+                  $i++;
+              }
+    Do-While : Pour répéter du code au moins une fois, puis continuer selon une condition.
+   	Exemple : $i = 0;
+                do {
+                    echo $i; // Affiche 0, 1, 2, 3, 4
+                    $i++;
+                } while ($i < 5);
+    Switch : Pour choisir entre plusieurs options basées sur la valeur d'une variable.
+   	Exemple : $jour = "Lundi";
+              switch ($jour) {
+                  case "Lundi":
+                      echo "Début de la semaine";
+                      break;
+                  case "Vendredi":
+                      echo "Fin de la semaine";
+                      break;
+                  default:
+                      echo "Jour normal";
+              }
+
+14.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+  -La fonction strlen() renvoie le nombre de caractères dans la chaîne donnée.
+
+15.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+ -Une session est un mécanisme qui permet de stocker des informations pour un utilisateur tout au long de sa visite sur un site web. Ces informations peuvent être utilisées pour garder l'utilisateur connecté , Fonction pour démarrer une session :session_start()
+Exemple : <?php
+          // Démarrer la session
+          session_start();
+          
+          // Stocker une valeur dans la session
+          $_SESSION['nom'] = 'Alice';
+          
+          // Accéder à la valeur stockée
+          echo $_SESSION['nom']; // Affiche 'Alice'
+          ?>
+
+17.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+  - Un cookie est un petit fichier stocké sur l'ordinateur de l'utilisateur par le navigateur, qui permet de conserver des informations entre les visites sur un site web.       Les cookies sont souvent utilisés pour mémoriser des préférences, des identifiants de connexion, ou des données de session.
+    Exemple : <?php
+            // Créer un cookie qui expire dans 1 heure
+            setcookie("utilisateur", "Alice", time() + 3600);
+            
+            // Vérifier si le cookie est défini
+            if (isset($_COOKIE["utilisateur"])) {
+                echo "Bonjour, " . $_COOKIE["utilisateur"]; // Affiche 'Bonjour, Alice'
+            }
+            ?>
+
+18.	Quelle est la différence entre les instructions « require » et « include » en PHP
+  - la différence entre les instructions "require" et "include" en PHP est "include " Inclut un fichier mais continue en cas d'erreur et "require" nclut un fichier et       
+   arrête le script en cas d'erreur
+
+19.	Comment effectuer une redirection en PHP ?
+  - Pour effectuer une redirection en PHP, on utilise l'instruction header(). Cela nous permet de rediriger  vers une autre page
+
+20.	Définir la partie « front-end » et « back-end » d’une application
+  - Front-end : La partie visible et interactive que vous voyez dans votre navigateur.
+  -Back-end : La partie cachée qui gère les données et la logique de l'application.
+
+21.	Définir le contrôle de version ? Qu’est-ce que Git ?
+22.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
 18.	Définir HTML
