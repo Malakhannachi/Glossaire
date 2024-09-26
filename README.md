@@ -14,7 +14,7 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce conte
-   - laragon et WAMP ( Windows ).
+   - Pour exécuter un script PHP il faut un serveur Apache . les logiciels sont laragon et WAMP ( Windows ).
      
 3.	Qu’est-ce qu’un algorithme ?
       - Un algorithme est une série d'étapes claires et précises que l'on suit pour résoudre un problème ou accomplir une tâche
@@ -30,7 +30,17 @@
   -  une constante reste la même, alors qu'une variable peut changer tout au long du programme.
 
 7.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
- - Une superglobale est une variable spéciale en PHP qui est toujours disponible partout dans le script, sans avoir besoin de la déclarer ou de la passer en argument. Il existe 9 superglobales en PHP : $_Get, $_Post, $_REQUEST, $_SESSION, $_COOKIE, $_FILES, $_ENV, $_SERVER, $_GLOBALS
+ - Une superglobale est une variable spéciale en PHP qui est toujours disponible partout dans le script, sans avoir besoin de la déclarer ou de la passer en argument. Il existe 9 superglobales en PHP : 
+ $_GET : Récupère les données envoyées via l'URL (méthode GET).
+$_POST : Récupère les données envoyées via un formulaire (méthode POST).
+$_REQUEST : Combine les données des superglobales $_GET, $_POST, et $_COOKIE.
+$_FILES : Gère les fichiers téléchargés via un formulaire.
+$_SESSION : Stocke les données utilisateur pour maintenir une session.
+$_COOKIE : Contient les cookies envoyés par le navigateur.
+$_SERVER : Fournit des informations sur le serveur et l'environnement d'exécution.
+$_ENV : Contient les variables d'environnement.
+$_GLOBALS : Accède à toutes les variables globales du script.
+$_PHP_SELF : Renvoie le chemin du fichier actuellement exécuté.
 
 8.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
   -En PHP, les variables peuvent être associées à différents types de données. Voici les principaux types primitifs avec des exemples simples :
@@ -376,41 +386,81 @@ __invoke(): Appel d'un objet comme fonction
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
-68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
-a.	Analyse, conception et réalisation
+La modélisation de données consiste à organiser et représenter les données d’un système pour montrer comment elles sont liées, souvent avec des schémas. Cela aide à créer et gérer les bases de données plus facilement.
+La méthode Merise est une méthode d'analyse et de conception de systèmes d'information. Elle permet de modéliser les données et les traitements d'une application en séparant deux aspects : le modèle conceptuel (données) et le modèle organisationnel (traitements). Utilisée surtout pour la conception de bases de données, Merise emploie des diagrammes (comme les MCD, Modèle Conceptuel de Données) pour représenter les entités, les relations et les processus du système. Cette méthode est couramment utilisée pour structurer et formaliser le développement de projets informatiques.
+69.	Quelles sont les 3 étapes principales de la méthode Merise ? 
+a.	Analyse, conception et réalisation X
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
-69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
-70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
-71.	Donner la définition des mots suivants :
+70.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+ MCD : Représentation abstraite des données et de leurs relations.
+71.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+MLD : Détails sur la structure des données sous forme de tables et de colonnes, prêt pour la mise en œuvre.
+72.	Donner la définition des mots suivants :
 a.	Entité
+Un objet ou concept identifiable dans un système, comme un client ou un produit.
 b.	Relation
+Un lien entre deux ou plusieurs entités, montrant comment elles interagissent.
 c.	Cardinalité
+Le nombre d'occurrences d'une entité associées à une autre dans une relation, indiquant des types de relations (un à un, un à plusieurs, etc.).
 d.	Clé primaire / clé étrangère
-72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-73.	Qu’est-ce qu’une base de données ?
-74.	Définir les notions suivantes : 
-a.	SQL
-b.	MySQL
+Clé primaire : Identifie uniquement chaque enregistrement dans une table.
+Clé étrangère : Lien vers la clé primaire d'une autre table, établissant une relation entre elles.
+74.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+Dans le modèle logique de données (MLD), une relation de type « Many To Many » devient généralement une table d'association ou table de jointure. Cette table contient des clés étrangères qui font référence aux clés primaires des deux entités impliquées dans la relation.
+75.	Qu’est-ce qu’une base de données ?
+Une base de données est un système organisé pour stocker et gérer des données, permettant d'y accéder et de les manipuler facilement.
+76.	Définir les notions suivantes : 
+a.	SQL (Structured Query Language) est un langage utilisé pour gérer et manipuler des bases de données relationnelles.
+b.	MySQL est un SGBD relationnel open source qui utilise SQL, souvent utilisé pour des applications web
 c.	SGBD (donner 2 exemples de SGBD)
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
-76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
-77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
-78.	A quoi sert une vue dans une base de données ?
-79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
-80.	Quelles sont les fonctions d’agrégation en SQL ?
-81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
-82.	Quelles sont les clauses qui permettent de :
-a.	Insérer un nouvel enregistrement dans une table
-b.	Modifier un enregistrement dans une table
-c.	Supprimer un enregistrement dans une table
-d.	Supprimer la base de données
-e.	Filtrer les résultats d’une requête SQL
-f.	Trier les résultats d’une requête SELECT
-g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
-h.	Concaténer 2 chaînes de caractères 
-83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+Un SGBD (Système de Gestion de Bases de Données) est un logiciel pour créer et gérer des bases de données.
+Exemples :
+PostgreSQL
+Oracle Database
+77.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrements et de colonnes appelées attributs.
+78.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+79.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+Une jointure dans une base de données est une opération qui combine des lignes de deux ou plusieurs tables basées sur une condition de correspondance, généralement une clé primaire et une clé étrangère. Les jointures permettent d'extraire des données liées dans une seule requête.
 
+Types de jointures
+Il existe plusieurs types de jointures, notamment :
+
+Jointure interne (INNER JOIN) : Récupère uniquement les lignes qui ont des correspondances dans les deux tables.
+
+Jointure externe : Peut être subdivisée en trois types :
+
+Jointure externe gauche (LEFT JOIN) : Récupère toutes les lignes de la table de gauche et les lignes correspondantes de la table de droite. Si aucune correspondance n'est trouvée, les résultats de la table de droite contiendront des valeurs NULL.
+Jointure externe droite (RIGHT JOIN) : Récupère toutes les lignes de la table de droite et les lignes correspondantes de la table de gauche. Si aucune correspondance n'est trouvée, les résultats de la table de gauche contiendront des valeurs NULL.
+Jointure externe complète (FULL JOIN) : Récupère toutes les lignes des deux tables, avec des valeurs NULL pour les lignes qui n'ont pas de correspondance dans l'autre table.
+Jointure croisée (CROSS JOIN) : Produit le produit cartésien des deux tables, c'est-à-dire toutes les combinaisons possibles de lignes des deux tables.
+80.	A quoi sert une vue dans une base de données ?
+Une vue dans une base de données est une table virtuelle qui affiche le résultat d'une requête SQL.
+81.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+ l'intégrité référentielle aide à maintenir la cohérence et la fiabilité des données dans une base de données relationnelle.
+82.	Quelles sont les fonctions d’agrégation en SQL ?
+les fonctions d'agrégation permettent de résumer et d'analyser les données dans une base de données.
+83.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+Un CRUD dans une base de données désigne les quatre opérations fondamentales pour manipuler les données :
+Create : Ajouter des données (insertion).
+Read : Lire des données (consultation).
+Update : Mettre à jour des données (modification).
+Delete : Supprimer des données.
+Ces opérations sont essentielles pour gérer efficacement les données dans les applications.
+84.	Quelles sont les clauses qui permettent de :
+a.	Insérer un nouvel enregistrement dans une table: INSERT INTO
+b.	Modifier un enregistrement dans une table: UPDATE
+c.	Supprimer un enregistrement dans une table:DELETE
+d.	Supprimer la base de données: DROP DATABASE
+e.	Filtrer les résultats d’une requête SQL: WHERE
+f.	Trier les résultats d’une requête SELECT: ORDER BY
+g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique:GROUP BY
+h.	Concaténer 2 chaînes de caractères : CONCAT()
+85.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+Pour se connecter à une base de données en PHP, vous pouvez utiliser la classe PDO (PHP Data Objects) ou mysqli (MySQL Improved).
+Classe native utilisée
+PDO : Idéale pour travailler avec plusieurs types de bases de données.
+mysqli : Spécifique à MySQL.
 ## Symfony
 84.	Qu’est-ce que Symfony ?
 85.	Sur quel langage de programmation et design pattern repose Symfony ? 
