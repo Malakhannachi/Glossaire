@@ -487,31 +487,89 @@ mysqli : Spécifique à MySQL.
 
 ## RGPD
 104.	Qu’est-ce que le RGPD ?
+Le RGPD est une réglementation européenne qui protège les données personnelles des citoyens en imposant des règles strictes aux entreprises sur leur collecte et utilisation.
 105.	Quel est son objectif principal ?
+L'objectif principal du RGPD est de protéger les données personnelles et de donner aux citoyens plus de contrôle sur leurs informations
 106.	Quelle est la date d’entrée en vigueur du RGPD ?
+Le RGPD est entré en vigueur le 25 mai 2018.
 107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
-108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
-109.	Quel est le consentement valide selon le RPGD ?
-110.	Qu’est-ce qu’une politique de confidentialité ?
-111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
-112.	Quels sont les droits des utilisateurs selon le RGPD ?
-113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+En cas de non-respect du RGPD, les sanctions peuvent être sévères et incluent :
+En cas de non-respect du RGPD, les sanctions peuvent être sévères et incluent :
 
+Amendes : Jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial annuel de l'entreprise, selon le montant le plus élevé.
+Avertissements : En cas de première infraction sans dommage important.
+Interdiction temporaire ou définitive de traiter des données.
+Obligation de rectifier ou supprimer des données.
+Poursuites judiciaires : Les individus concernés peuvent également engager des actions en justice pour obtenir des réparations.
+Amendes : Jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial annuel de l'entreprise, selon le montant le plus élevé.
+Avertissements : En cas de première infraction sans dommage important.
+Interdiction temporaire ou définitive de traiter des données.
+Obligation de rectifier ou supprimer des données.
+Poursuites judiciaires : Les individus concernés peuvent également engager des actions en justice pour obtenir des réparations.
+108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+En France, l'autorité administrative chargée de faire appliquer le RGPD est la CNIL (Commission Nationale de l'Informatique et des Libertés). La CNIL veille à la protection des données personnelles et au respect des droits des citoyens en matière de vie privée. Elle peut également sanctionner les entreprises en cas de non-respect du RGPD
+109.	Quel est le consentement valide selon le RPGD ?
+Selon le RGPD, un consentement valide doit être libre, spécifique, éclairé, univoque et facilement révocable
+110.	Qu’est-ce qu’une politique de confidentialité ?
+Une politique de confidentialité est un document qui explique comment une entreprise ou une organisation collecte, utilise, stocke et protège les données personnelles de ses utilisateurs. Elle informe également les utilisateurs de leurs droits concernant leurs données et des mesures prises pour assurer leur sécurité. Cette politique est essentielle pour garantir la transparence et la conformité avec des réglementations comme le RGPD.
+111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+Selon le RGPD, les données personnelles doivent être conservées uniquement aussi longtemps que nécessaire pour les finalités pour lesquelles elles sont traitées
+112.	Quels sont les droits des utilisateurs selon le RGPD ?
+Selon le RGPD, les utilisateurs ont les droits suivants concernant leurs données personnelles :
+
+Droit d'accès
+Droit de rectification
+Droit à l'effacement
+Droit à la limitation du traitement
+Droit à la portabilité des données
+Droit d'opposition
+Droit de ne pas faire l'objet d'une décision automatisée
+113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+Le principe de minimisation des données selon le RGPD exige que seules les données personnelles nécessaires soient collectées et conservées, afin de réduire les risques pour la vie privée
 ## SEO
 114.	Qu’est-ce que le SEO ? 
+Le SEO (Search Engine Optimization) est l'ensemble des techniques visant à améliorer la visibilité d'un site web dans les résultats des moteurs de recherche pour attirer du trafic organique.
 115.	Quel est l’objectif principal du SEO ?
+L'objectif principal du SEO est d'augmenter la visibilité d'un site web dans les résultats des moteurs de recherche afin d'attirer un trafic organique de qualité.
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
-117.	Qu’est-ce que la densité de mots-clés en SEO ?
-118.	Qu’est-ce qu’une balise « alt » ?
-119.	Qu’est-ce que la balise « meta description » ?
-120.	Qu’est-ce que le « nofollow » en SEO ?
-121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
-122.	Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
-123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
-124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
-125.	Qu'est-ce que l'optimisation des images pour le référencement ?
-126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+Oui, il existe plusieurs types de référencement, principalement :
 
+SEO (Search Engine Optimization) : Optimisation pour les moteurs de recherche afin d'améliorer le classement organique d'un site web.
+
+SEA (Search Engine Advertising) : Publicité sur les moteurs de recherche, comme Google Ads, qui permet de payer pour apparaître en haut des résultats.
+
+SMO (Social Media Optimization) : Optimisation des contenus sur les réseaux sociaux pour augmenter leur visibilité et engagement.
+
+SEM (Search Engine Marketing) : Marketing sur les moteurs de recherche, englobant le SEO et le SEA.
+
+Référencement local : Optimisation pour apparaître dans les résultats de recherche locaux, souvent utilisée par les entreprises ayant une présence physique
+117.	Qu’est-ce que la densité de mots-clés en SEO ?
+La densité de mots-clés en SEO est le pourcentage de fois qu'un mot-clé apparaît dans un texte par rapport au nombre total de mots. Elle aide à évaluer l'optimisation du contenu pour les moteurs de recherche. Une densité idéale se situe généralement entre 1 et 3 %.
+118.	Qu’est-ce qu’une balise « alt » ?
+Une balise « alt » est un attribut HTML qui décrit le contenu d'une image. Elle améliore l'accessibilité pour les utilisateurs malvoyants, aide au référencement des images par les moteurs de recherche, et s'affiche en cas de problème de chargement de l'image.
+119.	Qu’est-ce que la balise « meta description » ?
+La balise « meta description » est un élément HTML qui résume le contenu d'une page web et apparaît dans les résultats des moteurs de recherche. Elle incite les utilisateurs à cliquer sur le lien, bien qu'elle n'affecte pas directement le classement SEO. Il est conseillé de la limiter à 150-160 caractères.
+120.	Qu’est-ce que le « nofollow » en SEO ?
+Le « nofollow » est un attribut HTML qui indique aux moteurs de recherche de ne pas suivre un lien et de ne pas transmettre d'autorité à la page cible. Il est souvent utilisé pour contrôler le référencement, réduire le spam dans les commentaires et gérer les liens payants.
+121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+Le contenu de qualité est essentiel pour le référencement car il améliore le classement dans les moteurs de recherche, engage les utilisateurs, génère des backlinks, optimise les mots-clés et favorise la fidélisation des visiteurs
+122.	Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+Utiliser des balises de titre de manière structurée améliore la lisibilité, aide au référencement et optimise l'expérience utilisateur en clarifiant la hiérarchie du contenu
+123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
+our des URL bien référencées, il est recommandé de :
+
+Être claires et pertinentes.
+Inclure des mots-clés.
+Être simples et courtes.
+Utiliser des tirets pour séparer les mots.
+Éviter les paramètres excessifs.
+124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+Le maillage interne est la structure des liens entre les pages d'un site web. Il est important pour le référencement car il améliore l'indexation, répartit l'autorité des pages, optimise l'expérience utilisateur et augmente le temps passé sur le site.
+125.	Qu'est-ce que l'optimisation des images pour le référencement ?
+
+L'optimisation des images pour le référencement consiste à améliorer les images d'un site en utilisant des balises « alt », en compressant les fichiers, en utilisant des noms de fichiers descriptifs, en choisissant des formats appropriés et en incluant les images dans les sitemaps. Cela améliore la visibilité, réduit le temps de chargement et offre une meilleure expérience utilisateur.
+126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+Un plan de site (sitemap) est un fichier XML qui liste toutes les pages d'un site web pour aider les moteurs de recherche à les indexer. Il est important pour le référencement car il améliore l'indexation, clarifie la structure du site, gère les erreurs et permet de prioriser certaines pages.
 ## Gestion de projets - DevOps
 127.	Qu’est-ce que la gestion de projet ?	
 128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
