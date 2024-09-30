@@ -475,15 +475,71 @@ mysqli : Spécifique à MySQL.
 
 ## Sécurité
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+L'injection SQL est une attaque où un pirate insère des commandes SQL malveillantes dans les champs d'entrée d'une application web pour manipuler la base de données.
+Comment s'en protéger :
+Requêtes préparées : Utiliser des requêtes paramétrées pour séparer le code SQL des données.
+Échapper les entrées : Utiliser des fonctions qui échappent les caractères spéciaux dans les entrées utilisateur.
+Valider les entrées : Restreindre les données soumises par l'utilisateur (types, formats).
+Limiter les privilèges : Réduire les permissions des comptes de la base de données.
+Utiliser un ORM : Les ORM génèrent des requêtes SQL sécurisées automatiquement.
 95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+La faille XSS (Cross-Site Scripting) permet à un attaquant d'injecter du code malveillant dans une page web, qui s'exécute ensuite dans le navigateur des utilisateurs, compromettant leurs données.
+Comment s'en protéger :
+Échapper les entrées utilisateur : Traiter toutes les données avant de les afficher.
+Valider les entrées : Limiter les données acceptées à des formats précis.
+Utiliser des en-têtes de sécurité : CSP, HttpOnly et Secure pour les cookies.
+Sanitiser les données : Nettoyer les données soumises.
+Utiliser des frameworks sécurisés : React, Angular, etc.
+Désactiver le HTML là où il n'est pas nécessaire.
+
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+La faille CSRF (Cross-Site Request Forgery) permet à un attaquant de forcer un utilisateur authentifié à exécuter des actions non souhaitées sur un site web à son insu.
+Comment s'en protéger :
+Jetons CSRF : Ajouter des jetons uniques aux formulaires et requêtes sensibles.
+Vérification du Referer ou Origin : S'assurer que la requête provient du bon site.
+Limiter la durée de session : Réduire le temps d'authentification.
+Cookie SameSite : Empêcher l'envoi des cookies vers des sites externes.
+MFA : Ajouter une authentification multifactorielle pour des actions critiques.
+
 97.	Définir l’attaque par force brute et l’attaque par dictionnaire
+Force brute : Teste toutes les combinaisons possibles.
+Dictionnaire : Teste une liste de mots de passe courants.
+
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+oui il existe des nombreuses autres failles :
+Déni de service (DoS) : Surcharge un serveur pour le rendre indisponible.
+
+Man-in-the-Middle (MITM) : Interception des communications entre deux parties pour voler des données.
+
+Escalade de privilèges : Un utilisateur obtient des permissions non autorisées.
+
+Phishing : Tromperie pour obtenir des informations sensibles via des messages frauduleux.
+
+Configuration de sécurité : Mauvaises configurations exploitables par les attaquants.
+
+Injection de commandes : Exécution de commandes système via des entrées non sécurisées.
+
+Ransomware : Logiciel qui chiffre des données et exige une rançon pour les déchiffrer.
+
+Zero-day : Vulnérabilité inconnue exploitée avant qu'un correctif soit disponible.
+
+Buffer Overflow : Écriture excessive dans un espace mémoire, permettant l'exécution de code malveillant
+
 99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+Authentification : Vérifie qui vous êtes.
+Autorisation : Détermine ce que vous pouvez faire
+
 100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+Le hachage de mots de passe est une technique essentielle pour sécuriser les informations d'identification des utilisateurs. L'utilisation d'algorithmes de hachage robustes et adaptés, comme bcrypt, scrypt ou Argon2, est recommandée pour protéger les mots de passe contre les attaques.
+
 101.	Qu’est-ce qu’une politique de mots de passe forts ?
+Une politique de mots de passe forts est essentielle pour réduire le risque de compromission des comptes utilisateurs. En encourageant les bonnes pratiques de création et de gestion des mots de passe, les organisations peuvent protéger les données sensibles et renforcer la sécurité globale de leur système.
+
 102.	Qu’est-ce que l’hameçonnage ?
+L’hameçonnage est une menace sérieuse pour la sécurité des données personnelles et financières, et la vigilance est essentielle pour s'en protége
+
 103.	Définir la « validation des entrées »
+La validation des entrées est une pratique essentielle pour sécuriser les applications et assurer l'intégrité des données. Elle doit être mise en œuvre de manière rigoureuse tant côté client que côté serveur pour maximiser la protection contre les menaces potentielles.
 
 ## RGPD
 104.	Qu’est-ce que le RGPD ?
