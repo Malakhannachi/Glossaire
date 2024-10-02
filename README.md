@@ -628,7 +628,11 @@ L'optimisation des images pour le référencement consiste à améliorer les ima
 Un plan de site (sitemap) est un fichier XML qui liste toutes les pages d'un site web pour aider les moteurs de recherche à les indexer. Il est important pour le référencement car il améliore l'indexation, clarifie la structure du site, gère les erreurs et permet de prioriser certaines pages.
 ## Gestion de projets - DevOps
 127.	Qu’est-ce que la gestion de projet ?	
+La gestion de projet consiste à planifier, organiser et suivre les étapes nécessaires pour atteindre un objectif spécifique, tout en respectant les délais, le budget et les ressources disponibles.
+
 128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
+La méthode Agile est une approche de gestion de projet basée sur des cycles courts appelés "sprints", qui favorise la flexibilité et l'adaptation rapide aux changements, avec des livrables fréquents et une collaboration étroite avec les parties prenantes
+
 129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
 130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 131.	Qu’est-ce que la planification itérative ?
