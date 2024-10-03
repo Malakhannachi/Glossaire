@@ -659,16 +659,36 @@ Kanban : suivi visuel des tâches avec un flux de travail continu.
 Extreme Programming (XP) : pratiques comme la programmation en binôme et les tests automatisés
 
 133.	Qu’est-ce qu’une réunion de revue de projet ?
+Une réunion de revue de projet permet d'évaluer l'avancement du projet, de valider les livrables, et d'identifier les obstacles. L'équipe et les parties prenantes ajustent les priorités et planifient les étapes suivantes pour assurer la bonne progression du projet.
+
 134.	Qu’est-ce qu’un livrable dans un projet ? 
+Un livrable dans un projet est un produit, un service ou un résultat concret qui doit être fourni à la fin d'une phase ou d'un projet. Il peut s'agir de documents, de logiciels, de rapports, ou de toute autre production attendue qui respecte les spécifications du projet.
+
 135.	Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+Les 3 piliers de Scrum sont :
+Transparence : Tout est visible et compréhensible pour l'équipe.
+Inspection : Évaluation régulière du travail et des processus.
+Adaptation : Ajustements rapides en fonction des retours ou des obstacle
+
 136.	Qu’est-ce que le DevOps et quel est son objectif principal ?
+Le DevOps est une approche qui rapproche les équipes de développement et d'exploitation pour améliorer la collaboration.
+
 137.	Qu’est-ce que l’intégration continue ? 
+
+L'intégration continue (CI) est une pratique où les développeurs intègrent régulièrement leur code dans un dépôt partagé. Chaque modification est automatiquement testée pour détecter rapidement les erreurs et améliorer la qualité, facilitant ainsi une livraison plus rapide du logiciel.
+
 138.	Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+Docker est une plateforme qui permet de créer des conteneurs pour exécuter des applications de manière isolée et portable, peu importe l'environnement.
+
 139.	Qu’est-ce qu’un test unitaire ? 
+Un test unitaire vérifie le bon fonctionnement d'une petite partie du code (comme une fonction) de manière isolée, afin de détecter rapidement les erreurs. Il est souvent automatisé et permet d'assurer la qualité du code.
+
 140.	Quelle est l'unité de code testée lors d'un test unitaire ?
+L'unité de code testée lors d'un test unitaire est généralement une fonction, une méthode ou une classe individuelle. L'objectif est de vérifier que cette unité produit les résultats attendus, indépendamment des autres parties du programme.
+
 141.	Quelles sont les caractéristiques d'un bon test unitaire ?
 142.	Qu'est-ce qu'une assertion dans un test unitaire ?
- 
+ Une assertion dans un test unitaire vérifie si un résultat est correct. Si la condition est fausse, le test échoue, signalant un problème dans le code testé.
 ## English
 1)	What does JavaScript enable you to do on a website ?
 a.	Add interactive behavior and dynamic content
