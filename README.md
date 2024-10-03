@@ -634,9 +634,30 @@ La gestion de projet consiste à planifier, organiser et suivre les étapes néc
 La méthode Agile est une approche de gestion de projet basée sur des cycles courts appelés "sprints", qui favorise la flexibilité et l'adaptation rapide aux changements, avec des livrables fréquents et une collaboration étroite avec les parties prenantes
 
 129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+La méthode MoSCoW classe les priorités en quatre catégories :
+Must have : indispensables.
+Should have : importantes mais non vitales.
+Could have : souhaitables mais non essentielles.
+Won't have : non prioritaires pour l'instant.
+
 130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+La méthodologie MVP (Minimum Viable Product) sert à développer une version minimale mais fonctionnelle d'un produit pour tester rapidement son concept sur le marché.
+Caractéristiques clés :
+Fonctionnalités essentielles.
+Lancement rapide.
+Collecte de feedbacks utilisateurs.
+Réduction des risques.
+Amélioration basée sur les retours.
+
 131.	Qu’est-ce que la planification itérative ?
+La planification itérative consiste à diviser un projet en cycles courts (itérations) où une partie du produit est développée et améliorée à chaque étape.
+
 132.	Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+Voici 3 méthodes Agiles pour les projets informatiques :
+Scrum : itérations courtes appelées "sprints" avec des rôles et des réunions régulières.
+Kanban : suivi visuel des tâches avec un flux de travail continu.
+Extreme Programming (XP) : pratiques comme la programmation en binôme et les tests automatisés
+
 133.	Qu’est-ce qu’une réunion de revue de projet ?
 134.	Qu’est-ce qu’un livrable dans un projet ? 
 135.	Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
