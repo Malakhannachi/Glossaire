@@ -691,34 +691,34 @@ L'unité de code testée lors d'un test unitaire est généralement une fonction
  Une assertion dans un test unitaire vérifie si un résultat est correct. Si la condition est fausse, le test échoue, signalant un problème dans le code testé.
 ## English
 1)	What does JavaScript enable you to do on a website ?
-a.	Add interactive behavior and dynamic content
+a.	Add interactive behavior and dynamic content X
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
 2)	Which programming language is primarily used for server-side web development ?
-a.	PHP
+a.	PHP  X
 b.	JavaScript
 c.	HTML
 3)	What is the purpose of a web browser ?
-a.	To render and display web pages
+a.	To render and display web pages  X
 b.	To execute serve-side code
 c.	To manage databases
 4)	What is the difference between GET and POST methods in HTTP ?
-a.	GET retrieves data from a server, while POST submits data to a server
+a.	GET retrieves data from a server, while POST submits data to a server   X
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
 5)	What is the purpose of version control systems (e.g., Git) in web development ?
-a.	To track changes and manage collaborative development
+a.	To track changes and manage collaborative development X
 b.	To optimize website loading speed
 c.	To handle server-side scripting
 6)	What is the purpose of a framework in web development ?
-a.	To provide a structured environment for building web applications
+a.	To provide a structured environment for building web applications X
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
 7)	What does NoSQL stand for ?
-a.	Not Only SQL
+a.	Not Only SQL  X
 b.	Non-Structured Query Language
 c.	New Object-Oriented Language
 8)	Which of the following is a characteristic of NoSQL databases ?
 a.	Strict schema enforcement
 b.	Support for complex transactions
-c.	Scalability and flexible data models
+c.	Scalability and flexible data models  X
