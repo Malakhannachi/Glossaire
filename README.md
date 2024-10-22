@@ -184,7 +184,7 @@ Exemple : <?php
   - Sélecteur CSS est identifie les éléments HTML auxquels appliquer des styles.
 
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
-  - La balise HTML qui permet de créer un lien hypertexte est la balise <a>.
+  - La balise HTML qui permet de créer un lien hypertexte est la balise a.
 
 25.	Qu’est-ce qu’une requête AJAX ?
   -Requête AJAX est une Technique pour envoyer et recevoir des données sans recharger la page.
