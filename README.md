@@ -31,16 +31,23 @@
 
 7.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
  - Une superglobale est une variable spéciale en PHP qui est toujours disponible partout dans le script, sans avoir besoin de la déclarer ou de la passer en argument. Il existe 9 superglobales en PHP : 
- $_GET : Récupère les données envoyées via l'URL (méthode GET).
-$_POST : Récupère les données envoyées via un formulaire (méthode POST).
-$_REQUEST : Combine les données des superglobales $_GET, $_POST, et $_COOKIE.
-$_FILES : Gère les fichiers téléchargés via un formulaire.
-$_SESSION : Stocke les données utilisateur pour maintenir une session.
-$_COOKIE : Contient les cookies envoyés par le navigateur.
-$_SERVER : Fournit des informations sur le serveur et l'environnement d'exécution.
-$_ENV : Contient les variables d'environnement.
-$_GLOBALS : Accède à toutes les variables globales du script.
-$_PHP_SELF : Renvoie le chemin du fichier actuellement exécuté.
+$_GET : Contient les données envoyées via l'URL (méthode HTTP GET). Utilisée pour récupérer des paramètres de l'URL.
+
+$_POST : Contient les données envoyées via un formulaire (méthode HTTP POST). Utilisée pour transmettre des données de formulaire en toute sécurité.
+
+$_REQUEST : Contient les données envoyées via $_GET, $_POST, et $_COOKIE. Utile pour obtenir des données sans se soucier de la méthode utilisée.
+
+$_SESSION : Contient les données de session pour l'utilisateur actuel. Utilisée pour conserver des informations entre les pages d'un site.
+
+$_COOKIE : Contient les données des cookies stockés sur le client. Utilisée pour gérer des préférences utilisateur.
+
+$_FILES : Contient les informations des fichiers téléchargés via un formulaire. Utilisée pour gérer l'upload de fichiers.
+
+$_SERVER : Contient des informations sur le serveur et l'environnement, comme les en-têtes, les chemins, et les scripts. Par exemple, $_SERVER['HTTP_USER_AGENT'] pour connaître le navigateur de l'utilisateur.
+
+$_ENV : Contient des variables d'environnement. Utilisée pour récupérer des informations sur l'environnement du serveur.
+
+$GLOBALS : Un tableau contenant toutes les variables globales du script. Accessible de n'importe où, utile pour référencer des variables globales dans des fonctions.
 
 8.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
   -En PHP, les variables peuvent être associées à différents types de données. Voici les principaux types primitifs avec des exemples simples :
