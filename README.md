@@ -227,7 +227,7 @@ Exemple : <?php
     - Wireframe est un Schéma de la structure d'une page, montrant la disposition des éléments sans design détaillé.
 
 37.	Qu’est-ce qu’un prototype ? 
-   - Prototype : Version préliminaire d'un produit pour tester et valider des concepts avant la version finale
+   -  un prototype est un outil essentiel pour visualiser, tester et ajuster un concept avant de réaliser le produit final, minimisant ainsi les risques d'erreurs coûteuses.
 
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
   - Hiérarchie visuelle : Organisation des éléments d'une interface pour guider l'utilisateur et rendre le contenu facile à comprendre et à naviguer
