@@ -23,7 +23,10 @@
    - Une variable est un espace de stockage temporaire où l'on peut garder des informations, En PHP, les variables sont par le symbole $.
 
 5.	Qu’est-ce que la portée d’une variable ?
-  - La portée d'une variable est la zone de code où elle a été déclarée.
+  - La portée d'une variable est la zone de code que régule l'accès aux variables et leur durée de vie dans un programme.
+  - Portée locale : Accessible uniquement dans la fonction ou le bloc où elle est déclarée.
+  - Portée globale : Accessible dans tout le programme.
+  - Portée de fonction : Variable déclarée dans une fonction, accessible uniquement dans cette fonction.
 
 6.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
   - Constante : Sa valeur est fixe et ne peut pas être modifiée après sa définition.
